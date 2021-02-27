@@ -15,6 +15,7 @@ body {
   list-style: none;
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -38,6 +39,13 @@ h6 {
 .accent-logo {
   color: #2196f3;
 }
+.second-accent-logo {
+  color: #000000;
+}
+.menu-nav {
+  text-decoration: none;
+  list-style-type: none;
+}
 
 .link {
   color: var(--title-text-color);
@@ -47,12 +55,25 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  list-style-type: none;
-  list-style: none;
+  text-decoration: none;
+}
+.menu-nav .link:active {
+  color: var(--accent-color);
+}
+.menu-nav .link:focus {
+  color: var(--accent-color);
 }
 
 .link:hover {
   color: var(--accent-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.contacts-list {
+  list-style-type: none;
 }
 
 .contacts {
@@ -67,6 +88,7 @@ h6 {
 .contacts:hover {
   color: var(--accent-color);
 }
+.contacts-list
 /* hero */
 .hero {
   font-weight: 900;
@@ -92,11 +114,13 @@ h6 {
 }
 
 /* top section */
+.list-features {
+  list-style-type: none;
+}
 
 .features {
   list-style-type: none;
   text-decoration: none;
-  list-style-type: none;
   list-style: none;
 }
 
@@ -121,6 +145,10 @@ h6 {
 
 /* occupation */
 
+.list-occupation {
+  list-style-type: none;
+}
+
 .occupation {
   font-weight: bold;
   font-size: 36px;
@@ -130,6 +158,10 @@ h6 {
 }
 
 /* our-team */
+
+.list-our-team {
+  list-style-type: none;
+}
 
 .our-team {
   font-weight: bold;
@@ -161,9 +193,24 @@ h6 {
   color: #ffffff;
 }
 
+.list-tooter {
+  list-style-type: none;
+}
+
+.link-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* portfolio */
 .portfolio-title {
   color: #fff;
+}
+
+.list-portfolio {
+  list-style-type: none;
 }
 
 .button-portfolio {
@@ -178,6 +225,10 @@ h6 {
 .button-portfolio:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+.list-portfolio-img {
+  list-style-type: none;
 }
 
 .portfolio-subtitle {
