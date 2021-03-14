@@ -184,6 +184,15 @@ h6 {
 }
 
 /* footer */
+
+.buttom-part {
+  background: #2f303a;
+}
+
+.second-accent-logofooter {
+  color: #ffffff;
+}
+
 .address {
   font-style: normal;
   font-weight: normal;
@@ -207,20 +216,12 @@ h6 {
 
 /* portfolio */
 
-footer {
-  background: #2f303a;
-}
-
 .portfolio-title {
   color: #ffffff;
 }
 
 .list-portfolio {
   list-style-type: none;
-}
-
-.second-accent-logofooter {
-  color: #ffffff;
 }
 
 .button-portfolio {
